@@ -5,13 +5,11 @@ body
     text-align: center;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
     background-image: url("../images/houndstooth-pattern.png");
 }
 
 .banner
 {
-    position: static;
     width:100%;
     background-color: white;
     height: 70px;
@@ -32,6 +30,12 @@ header
     font-weight: bold;
     float: left;
     padding: 20px;
+    box-sizing: border-box;
+}
+
+nav
+{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1
@@ -51,6 +55,11 @@ h2
     text-align: left;
     margin-bottom: 30px;
     margin-left:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    padding: 20px;
 }
 
 main
@@ -66,19 +75,16 @@ main
 
 .aboutMe
 {
-    width: 960px;
     height: 500px;
 }
 
 .contact
 {
-    width:960px;
     height:590px;
 }
 
 .portfolio
 {
-    width:960px;
     height:1150px;
 }
 
@@ -120,7 +126,7 @@ footer
 ul
 {
     background-color: transparent;
-    float: right;
+    float:right;
     color: #777777;
     font-size: 15px;
     margin-top: 20px;
@@ -245,3 +251,184 @@ input
     display: block;
     clear: both;
 }
+
+@media screen and (max-width: 980px)
+{
+    main
+    {
+        width:700px;
+        float:left;
+        margin-left: 10px;
+    }
+
+    h2
+    {
+        width:680px;
+        box-sizing: border-box;
+    }
+
+    .aboutMe
+    {
+        height:575px;
+    }
+
+    header
+    {
+        width:97.5%;
+    }
+
+    .portfolio
+    {
+        height:1100px;
+    }
+
+    figcaption
+    {
+        bottom: 30px;
+        width: 76.5%;
+    }
+
+    textarea
+    {
+        width: 670px
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    main
+    {
+        width:740px;
+        margin-left: 14px;
+    }
+
+    h2
+    {
+        width:720px;
+        box-sizing: border-box;
+    }
+
+    .banner
+    {
+        width:768px;
+    }
+
+    header
+    {
+        width:740px;
+    }
+
+    .aboutMe
+    {
+        height:575px;
+    }
+
+    .portfolio
+    {
+        height:1100px;
+    }
+
+    figcaption
+    {
+        bottom: 30px;
+        width: 76.5%;
+    }
+
+    textarea
+    {
+        width: 700px
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    main
+    {
+        width:620px;
+        margin-left:10px;
+    }
+
+    h1
+    {
+        width:640px;
+    }
+
+    h2
+    {
+        width:600px;
+        box-sizing: border-box;
+    }
+
+    nav
+    {
+        clear:both;
+        float: right;
+        background-color: #ffffff;
+        height: 40px;
+        width:640px;
+        padding-bottom: 10px;
+        padding-right:29%;
+        box-sizing: border-box;
+    }
+
+    ul
+    {
+        margin-top: 10px;
+    }
+
+    .banner
+    {
+        width:640px;
+    }
+
+    header
+    {
+        width:640px;
+    }
+
+    .aboutMe
+    {
+        height:1000px;
+    }
+
+    .picOfMe
+    {
+        width:575px;
+        height:575px;
+        margin: auto;
+        margin-top: -100px;
+        margin-bottom: -70px;
+    }
+
+    #firstP
+    {
+        box-sizing: border-box;
+    }
+
+    #secondP
+    {
+        padding-top:0px;
+    }
+
+    .portfolio
+    {
+        height:2600px;
+    }
+
+    img
+    {
+        width:580px;
+        height:580px;
+        margin-top: -80px;
+    }
+    
+    figcaption
+    {
+        bottom: 120px;
+        width: 87.3%;
+    }
+
+    textarea
+    {
+        width: 590px
+    }
