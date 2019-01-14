@@ -119,7 +119,7 @@ footer
     padding-top: 40px;
     padding-bottom: 5px;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
 }
 
@@ -202,7 +202,7 @@ form
 
 textarea
 {
-    width: 920px;
+    width: 900px;
     height:40px;
     margin: 10px;
     border: 1px solid #cccccc;
@@ -432,3 +432,4 @@ input
     {
         width: 590px
     }
+}
